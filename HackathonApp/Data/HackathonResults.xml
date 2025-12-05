@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HackathonResults>
+  <Project>
+    <Id>1</Id>
+    <TeamName>ByteForge</TeamName>
+    <ProjectName>CareLink</ProjectName>
+    <Category>HealthTech</Category>
+    <EventDate>2023-11-18</EventDate>
+    <Score>92.5</Score>
+    <Members>5</Members>
+    <Captain>Anna Kovacs</Captain>
+  </Project>
+  <Project>
+    <Id>2</Id>
+    <TeamName>QuantumQuokkas</TeamName>
+    <ProjectName>LedgerLite</ProjectName>
+    <Category>FinTech</Category>
+    <EventDate>2024-03-15</EventDate>
+    <Score>88.3</Score>
+    <Members>4</Members>
+    <Captain>Mark Toth</Captain>
+  </Project>
+  <Project>
+    <Id>3</Id>
+    <TeamName>DataDruids</TeamName>
+    <ProjectName>ClassCraft</ProjectName>
+    <Category>EduTech</Category>
+    <EventDate>2024-03-15</EventDate>
+    <Score>84.1</Score>
+    <Members>3</Members>
+    <Captain>Lili Nagy</Captain>
+  </Project>
+  <Project>
+    <Id>4</Id>
+    <TeamName>CitySparks</TeamName>
+    <ProjectName>ParkWise</ProjectName>
+    <Category>SmartCity</Category>
+    <EventDate>2024-06-02</EventDate>
+    <Score>90.2</Score>
+    <Members>6</Members>
+    <Captain>Peter Horvath</Captain>
+  </Project>
+  <Project>
+    <Id>5</Id>
+    <TeamName>NeuralNova</TeamName>
+    <ProjectName>DocuAI</ProjectName>
+    <Category>AI-ML</Category>
+    <EventDate>2024-06-02</EventDate>
+    <Score>95.0</Score>
+    <Members>5</Members>
+    <Captain>Reka Szabo</Captain>
+  </Project>
+  <Project>
+    <Id>6</Id>
+    <TeamName>AgriGenius</TeamName>
+    <ProjectName>FieldSense</ProjectName>
+    <Category>AgriTech</Category>
+    <EventDate>2024-09-21</EventDate>
+    <Score>79.5</Score>
+    <Members>4</Members>
+    <Captain>Bence Kiss</Captain>
+  </Project>
+  <Project>
+    <Id>7</Id>
+    <TeamName>SecureSages</TeamName>
+    <ProjectName>PhishGuard</ProjectName>
+    <Category>CyberSec</Category>
+    <EventDate>2024-09-21</EventDate>
+    <Score>91.4</Score>
+    <Members>5</Members>
+    <Captain>Eva Varga</Captain>
+  </Project>
+  <Project>
+    <Id>8</Id>
+    <TeamName>GreenGrid</TeamName>
+    <ProjectName>WattWatch</ProjectName>
+    <Category>Energy</Category>
+    <EventDate>2024-09-21</EventDate>
+    <Score>83.0</Score>
+    <Members>3</Members>
+    <Captain>Tamas Farkas</Captain>
+  </Project>
+  <Project>
+    <Id>9</Id>
+    <TeamName>HelpHub</TeamName>
+    <ProjectName>ReliefMap</ProjectName>
+    <Category>Civic</Category>
+    <EventDate>2024-11-10</EventDate>
+    <Score>86.7</Score>
+    <Members>6</Members>
+    <Captain>Judit Molnar</Captain>
+  </Project>
+  <Project>
+    <Id>10</Id>
+    <TeamName>ByteForge</TeamName>
+    <ProjectName>ClinicQueue</ProjectName>
+    <Category>HealthTech</Category>
+    <EventDate>2024-11-10</EventDate>
+    <Score>89.8</Score>
+    <Members>5</Members>
+    <Captain>Anna Kovacs</Captain>
+  </Project>
+  <Project>
+    <Id>11</Id>
+    <TeamName>NeuralNova</TeamName>
+    <ProjectName>InsightAI</ProjectName>
+    <Category>AI-ML</Category>
+    <EventDate>2025-03-07</EventDate>
+    <Score>93.6</Score>
+    <Members>5</Members>
+    <Captain>Reka Szabo</Captain>
+  </Project>
+  <Project>
+    <Id>12</Id>
+    <TeamName>QuantumQuokkas</TeamName>
+    <ProjectName>PayPulse</ProjectName>
+    <Category>FinTech</Category>
+    <EventDate>2025-03-07</EventDate>
+    <Score>82.9</Score>
+    <Members>4</Members>
+    <Captain>Mark Toth</Captain>
+  </Project>
+  <Project>
+    <Id>13</Id>
+    <TeamName>CitySparks</TeamName>
+    <ProjectName>RouteSmart</ProjectName>
+    <Category>SmartCity</Category>
+    <EventDate>2025-06-14</EventDate>
+    <Score>87.2</Score>
+    <Members>6</Members>
+    <Captain>Peter Horvath</Captain>
+  </Project>
+  <Project>
+    <Id>14</Id>
+    <TeamName>DataDruids</TeamName>
+    <ProjectName>MentorMatch</ProjectName>
+    <Category>EduTech</Category>
+    <EventDate>2025-06-14</EventDate>
+    <Score>85.3</Score>
+    <Members>3</Members>
+    <Captain>Lili Nagy</Captain>
+  </Project>
+  <Project>
+    <Id>15</Id>
+    <TeamName>HelpHub</TeamName>
+    <ProjectName>FloodAlert</ProjectName>
+    <Category>Civic</Category>
+    <EventDate>2025-06-14</EventDate>
+    <Score>90.5</Score>
+    <Members>6</Members>
+    <Captain>Judit Molnar</Captain>
+  </Project>
+  <Project>
+    <Id>16</Id>
+    <TeamName>SecureSages</TeamName>
+    <ProjectName>MalwareMap</ProjectName>
+    <Category>CyberSec</Category>
+    <EventDate>2025-09-05</EventDate>
+    <Score>89.1</Score>
+    <Members>5</Members>
+    <Captain>Eva Varga</Captain>
+  </Project>
+  <Project>
+    <Id>17</Id>
+    <TeamName>GreenGrid</TeamName>
+    <ProjectName>SolarSync</ProjectName>
+    <Category>Energy</Category>
+    <EventDate>2025-09-05</EventDate>
+    <Score>92.0</Score>
+    <Members>4</Members>
+    <Captain>Tamas Farkas</Captain>
+  </Project>
+  <Project>
+    <Id>18</Id>
+    <TeamName>AgriGenius</TeamName>
+    <ProjectName>HarvestHub</ProjectName>
+    <Category>AgriTech</Category>
+    <EventDate>2025-09-05</EventDate>
+    <Score>81.2</Score>
+    <Members>4</Members>
+    <Captain>Bence Kiss</Captain>
+  </Project>
+  <Project>
+    <Id>19</Id>
+    <TeamName>NeuralNova</TeamName>
+    <ProjectName>VisionAI</ProjectName>
+    <Category>AI-ML</Category>
+    <EventDate>2025-10-12</EventDate>
+    <Score>96.1</Score>
+    <Members>5</Members>
+    <Captain>Reka Szabo</Captain>
+  </Project>
+  <Project>
+    <Id>20</Id>
+    <TeamName>ByteForge</TeamName>
+    <ProjectName>TeleMed+</ProjectName>
+    <Category>HealthTech</Category>
+    <EventDate>2025-10-12</EventDate>
+    <Score>91.0</Score>
+    <Members>5</Members>
+    <Captain>Anna Kovacs</Captain>
+  </Project>
+</HackathonResults>
