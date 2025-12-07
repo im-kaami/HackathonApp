@@ -1,6 +1,7 @@
 ﻿# 🚀 Hackathon Results Management System  
 ### XML → SQL Server → LINQ Analytics → JSON Export (Console UI with Colored ASCII Tables)
 
+
 <p align="center">
   <img src="https://img.shields.io/badge/Tech-.NET%209-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/ORM-Entity%20Framework%20Core-green?style=for-the-badge">
@@ -164,27 +165,86 @@ Duration: 0.74s
   }
 ]
 ```
-# 🛠️ How to Run
+# 🛠️ How to Run the Project (Local Setup Guide)
+This project includes two .NET projects:
 
-### 1. Clone the repo:
+- HackathonApp/ → Console application (startup project)
+- HackathonData/ → EF Core + DbContext + Migrations
+
+To run the project correctly, follow these steps.
+### 1️⃣. Clone the repo:
 
 ```bash 
 git clone https://github.com/im-kaami/HackathonApp.git
 cd HackathonApp
 ```
-### 2. Create local configuraion:
+### 2️⃣. Create Your Local appsettings.json:
+The repo does not include real connection strings (for security).
+Copy the example file:
+
+#### Git Bash (Linux/macOS/Windows Git Bash):
 ```bash
 cp HackathonApp/appsettings.example.json HackathonApp/appsettings.json
 ```
-### 3. Apply EF Core migrations:
-```bash
-cd HackathonData
-dotnet ef database update
-cd ..
+#### PowerShell
+
+``` bash
+Copy-Item HackathonApp\appsettings.example.json HackathonApp\appsettings.json
 ```
-### 4. Run the application:
+#### Ensure your connection string looks like this:
+```json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=HackathonDB;Trusted_Connection=True"
+  }
+}
+```
+❗ Important: Ensure the connection string uses exactly \\ (two backslashes).
+If you see \\\\ (four slashes), fix it manually — JSON escaping will break LocalDB.
+
+### 3️⃣. Ensure SQL Server LocalDB Exists
+
 ```bash
-dotnet run --project HackathonApp
+sqllocaldb info
+```
+If LocalDB is not running:
+```bash
+sqllocaldb start MSSQLLocalDB
+```
+If LocalDB instance doesn't exist:
+```
+sqllocaldb create MSSQLLocalDB
+sqllocaldb start MSSQLLocalDB
+```
+
+### 4️⃣. Install the Correct EF Core Tool (Mandatory)
+This project uses .NET 9, so install EF Core CLI version 9.x.
+```
+dotnet tool uninstall --global dotnet-ef
+dotnet tool install --global dotnet-ef --version 9.0.10
+dotnet ef --version
+```
+
+### 5️⃣. Restore & Build the Solution
+From the repo root:
+```
+dotnet restore
+dotnet build
+```
+### 6️⃣. Apply EF Core Migrations
+You MUST specify both the DbContext project and the startup project.
+```bash
+dotnet ef database update \
+  --project HackathonData/HackathonData.csproj \
+  --startup-project HackathonApp/HackathonApp.csproj \
+  --verbose
+```
+This will create the database HackathonDB in your LocalDB instance.
+
+### 7️⃣. Run the Console Application
+```bash
+cd HackathonApp
+dotnet run
 ```
 You will see:
 ```mathematica
@@ -194,6 +254,12 @@ You will see:
 4) Run Complex LINQ queries
 5) Export latest queries to JSON
 0) Exit
+```
+
+### 8️⃣. JSON Output Location
+After running queries or choosing option 5 Outputs are stored in:
+```
+HackathonApp/Output/
 ```
 # 📦 Repository Structure
 
